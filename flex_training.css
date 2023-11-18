@@ -1,0 +1,32 @@
+/*HEADER*/
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-logo {
+    /*Вклюаем flexbox*/
+    display: flex;
+    /*Направление расположения блоков относительно Main axis слева направо*/
+    flex-direction:row;
+    /*Направление расположения блоков относительно Cross axis по центру*/
+    align-items: center;
+    /*Размер блок с лого названием (его вес) относительно других элементов*/
+    flex-grow: 1;
+}
+
+.logo-img {
+    margin-right: 40px;
+}
+
+.header-menu {
+    flex-grow: 3;
+}
